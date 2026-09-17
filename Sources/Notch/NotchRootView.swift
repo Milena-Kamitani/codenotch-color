@@ -224,8 +224,9 @@ struct NotchRootView: View {
                         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
                 }
             }
-            // Keep the folded handle visible against dark desktops.
-            shape.fill(Color(red: 1.0, green: 0.40, blue: 0.70))
+            // Keep the folded handle visible against dark desktops, using the
+            // same colour the person chose for the rest of the notch accents.
+            shape.fill(model.accentColor.color)
                 .opacity(model.isExpanded ? 0 : 1)
                 .allowsHitTesting(false)
         }   

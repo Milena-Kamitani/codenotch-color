@@ -18,9 +18,10 @@ still working, done, or waiting on you.**
 ## Codenotch Rosa — versão de Milena Kamitani
 
 Esta é uma versão personalizada por **Milena Kamitani**, baseada no projeto
-open source [Codenotch, de Vinz](https://github.com/vinzdg/codenotch). A primeira
-mudança deixa rosa a pequena alça recolhida na lateral da tela, facilitando sua
-localização sobre fundos escuros.
+open source [Codenotch, de Vinz](https://github.com/vinzdg/codenotch). A pequena
+alça recolhida na lateral da tela acompanha a cor de destaque escolhida em
+**Aparência**, facilitando sua localização sobre fundos escuros. Cada pessoa
+pode usar rosa, azul, verde, roxo ou outra cor disponível.
 
 O código personalizado está disponível neste repositório. O instalador próprio
 desta versão ainda está sendo preparado; os downloads mencionados abaixo são do
