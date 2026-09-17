@@ -33,13 +33,15 @@ two never disagree.
 
 ## Download
 
-[![Download for macOS](docs/design/download-macos.svg)](../../releases/latest/download/Codenotch.dmg)
+[![Download for macOS](docs/design/download-macos.svg)](../../releases/download/preview/Codenotch-1.13.1-unsigned.dmg)
 
-That button is the disk image itself, not the page it sits on — the asset is
-named `Codenotch.dmg` in every release, so `releases/latest/download/` always
-resolves to the newest one and the link never needs updating. Signed,
-notarized, and updating itself from then on. Take this one unless you have a
-reason not to; the [release page](../../releases/latest) has the notes.
+This button downloads the current **Codenotch Color** preview. It is an
+ad-hoc-signed community build, so after dragging it to Applications, clear the
+macOS quarantine flag once with:
+
+```sh
+xattr -dr com.apple.quarantine /Applications/Codenotch.app
+```
 
 To try unreleased `main` without an Xcode install, the [preview
 build](../../releases/tag/preview) is rebuilt from every commit, and the
