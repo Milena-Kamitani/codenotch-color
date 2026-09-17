@@ -15,7 +15,7 @@ still working, done, or waiting on you.**
 
 </div>
 
-## Codenotch Rosa — versão de Milena Kamitani
+## Codenotch Color — versão de Milena Kamitani
 
 Esta é uma versão personalizada por **Milena Kamitani**, baseada no projeto
 open source [Codenotch, de Vinz](https://github.com/vinzdg/codenotch). A pequena
