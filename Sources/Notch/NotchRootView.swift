@@ -224,6 +224,10 @@ struct NotchRootView: View {
                         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
                 }
             }
+            // Keep the folded handle visible against dark desktops.
+            shape.fill(Color(red: 1.0, green: 0.40, blue: 0.70))
+                .opacity(model.isExpanded ? 0 : 1)
+                .allowsHitTesting(false)
         }   
             // The glass and the fill both stay mounted so folding keeps
             // animating one shape rather than swapping one view for another

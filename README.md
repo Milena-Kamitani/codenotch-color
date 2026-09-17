@@ -15,6 +15,17 @@ still working, done, or waiting on you.**
 
 </div>
 
+## Codenotch Rosa — versão de Milena Kamitani
+
+Esta é uma versão personalizada por **Milena Kamitani**, baseada no projeto
+open source [Codenotch, de Vinz](https://github.com/vinzdg/codenotch). A primeira
+mudança deixa rosa a pequena alça recolhida na lateral da tela, facilitando sua
+localização sobre fundos escuros.
+
+O código personalizado está disponível neste repositório. O instalador próprio
+desta versão ainda está sendo preparado; os downloads mencionados abaixo são do
+projeto original e não incluem a alça rosa.
+
 Hover a ring for its limit windows and when they reset. Claude's ring shows the
 same **current session** window Claude Code's own `/usage` leads with, so the
 two never disagree.
